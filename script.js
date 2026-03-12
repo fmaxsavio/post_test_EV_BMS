@@ -301,10 +301,10 @@ const logoURL = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqEAAADICAYAAADYx
   // Add player information
   doc.setFontSize(12);
   doc.text(20, 20, `Student Details: ${playerName} ${playerName1}`);
-  doc.text(20, 27, "Subject Details: EC2801 Electromagnetic Theory");
-  doc.text(20, 34, "Assessment & CO : Module 6 | CO3");
+  doc.text(20, 27, "Subject Details: Embedded Systems for EV Applications");
+  doc.text(20, 34, "Assessment & CO : POst-Test");
   doc.text(20, 41, `Time played: ${timePlayed} seconds`);
-  doc.text(20, 48, "Course Trainer: Mr.F.Max Savio, AP/EEE");
+  doc.text(20, 48, "Course Trainer: Max Savio, Trainer (B2B), TVS-TS");
   doc.setFontSize(12);
     // Add each question and the selected answer
   questionLog.forEach((entry, index) => {
